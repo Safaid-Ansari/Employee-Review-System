@@ -1,6 +1,6 @@
 # Employee-Review-System
 ## Description 
-  A greate project which is use to submit review against each other for employees. And there is an admin
+  A great project which is use to submit review against each other for employees. And there is an admin
   who can see all employees, he can delete any of employee and he can create any employee. An admin can 
   create any employee to admin
   
@@ -17,7 +17,7 @@
   
   ```
   
-  After reaching to the this preoject directory yo have to run this following command :
+  After reaching to the this project directory yo have to run this following command :
   ```
   $ npm install
   $ nodemon index.js or npm start
@@ -26,8 +26,7 @@
   Entering login admin point (important)
   using this email and pass login into project please
   ``` 
-  email : pradeep@gmail.com
-  password : 123
+ 
   ```
   
   ## Features
@@ -38,7 +37,7 @@
   ![Test Image 4](https://github.com/ashishpal07/Employee-Review-System/blob/main/assets/image/admin-task.png)
   Assign employees to participate in another employee's performance review
   ![Test](https://github.com/ashishpal07/Employee-Review-System/blob/main/assets/image/assign-work.png)
-  Admin can add new employee also by registring
+  Admin can add new employee also by registering
   ![test](https://github.com/ashishpal07/Employee-Review-System/blob/main/assets/image/register.png)
   * Employee View
     * List of performance review requiring feedback
@@ -52,7 +51,7 @@
   ## Directory Structure
   * ```/assets/css``` - all css code
   * ```/assets/img``` - all the images
-  * ```/config``` - MongooDB Atlas Configuration
+  * ```/config``` - MongoDB Atlas Configuration
   * ```/controllers``` - questions & option controllers code
   * ```/model``` - review and users. 
   * ```/routes``` - all routes according to admin and employee is here

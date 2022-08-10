@@ -3,9 +3,8 @@ const mongoose = require('mongoose');
 
 // connect from mongodb
 mongoose.connect('mongodb://localhost:27017/Review-System');
-    // mongoose.connect('mongodb+srv://ashishpal:123abc@ers.vd4pr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
-
-// aquire connection if it is succesful
+  
+// acquire connection if it is successful
 const db = mongoose.connection;
 
 // error

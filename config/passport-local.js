@@ -36,7 +36,7 @@ passport.serializeUser(function(user, done){
 passport.deserializeUser(function(id, done){
     User.findById(id, function(err, user){
         if(err){
-            console.log("Error while finding user in deseralizing");
+            console.log("Error while finding user in deserializing");
             return done(err);
         }
         return done(null, user);
