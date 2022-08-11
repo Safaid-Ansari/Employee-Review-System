@@ -31,22 +31,23 @@
   
   ## Features
   * Admin View
+  ![](/Images/1.JPG)
   Add/ remove/ update/ view employees
-  ![Test Image 4](https://github.com/ashishpal07/Employee-Review-System/blob/main/assets/image/view-all-emp.png)
+  
   Add/update/view performance reviews
-  ![Test Image 4](https://github.com/ashishpal07/Employee-Review-System/blob/main/assets/image/admin-task.png)
+  
   Assign employees to participate in another employee's performance review
-  ![Test](https://github.com/ashishpal07/Employee-Review-System/blob/main/assets/image/assign-work.png)
+  
   Admin can add new employee also by registering
-  ![test](https://github.com/ashishpal07/Employee-Review-System/blob/main/assets/image/register.png)
+  
   * Employee View
     * List of performance review requiring feedback
     * Submit feedback
-  ![test4](https://github.com/ashishpal07/Employee-Review-System/blob/main/assets/image/employe-task.png)
+  
   * Login
-  ![test5](https://github.com/ashishpal07/Employee-Review-System/blob/main/assets/image/login.png)
+  
   * Register
-  ![test6](https://github.com/ashishpal07/Employee-Review-System/blob/main/assets/image/register.png)
+  
   
   ## Directory Structure
   * ```/assets/css``` - all css code
