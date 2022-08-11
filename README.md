@@ -31,11 +31,9 @@
   
   ## Features
   * Admin View
-  ![](/Images/1.JPG)
+
   Add/ remove/ update/ view employees
-  
   Add/update/view performance reviews
-  
   Assign employees to participate in another employee's performance review
   
   Admin can add new employee also by registering
