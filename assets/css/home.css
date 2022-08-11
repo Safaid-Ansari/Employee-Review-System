@@ -1,4 +1,6 @@
-
+body{
+    background-color: cornflowerblue;
+}
 .w-4{
     width:45%;
 }
@@ -26,4 +28,12 @@
 
 .m-10{
     margin:10px;
+}
+
+.card-body{
+    background-color: darkgray;
+}
+
+#body-container{
+    font-family: 'Rubik Marker Hatch', cursive;
 }

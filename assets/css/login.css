@@ -1,0 +1,12 @@
+body{
+    background-color: cornflowerblue;
+}
+.card-body{
+    background-color: #226b5e;
+    font-family: 'Rubik Marker Hatch', cursive;
+    
+}
+a{
+    color: white;
+    margin-left: 5px ;
+}

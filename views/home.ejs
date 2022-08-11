@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="/css/home.css">
 <div id="body-container">
     <div class="w-4 border border-dark">
-        <div class=" bg-secondary text-white border-bottom border-dark" >
+        <div class=" bg-dark text-white border-bottom border-dark" >
             <div class="mx-auto" style="width: 200px;">
                 <h1>To Review</h1>
             </div>
@@ -32,14 +32,14 @@
     </div>
     <div class="w-4 border border-dark">
         
-        <div class="bg-secondary text-white border-bottom border-dark" >
+        <div class="bg-dark text-white border-bottom border-dark" >
             <div class="mx-auto" style="width: 250px;">
                 <h1>My Reviews</h1>
             </div>
         </div>
         <div >
             <% for(let i = 0; i < reviews.length; i++) { %>
-                <div class="card ">
+                <div class="card  ">
                     <div class="card-body">
                       <h5 class="card-title">From : <%= reviews[i].name %></h5>
                       <p class="card-text">message : <%= reviews[i].review %></p>
