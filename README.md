@@ -33,7 +33,9 @@
   * Admin View
 
   Add/ remove/ update/ view employees
+
   Add/update/view performance reviews
+  
   Assign employees to participate in another employee's performance review
   
   Admin can add new employee also by registering
