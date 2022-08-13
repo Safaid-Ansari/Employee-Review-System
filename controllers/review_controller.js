@@ -30,7 +30,7 @@ module.exports.createReview = async function(req, res){
                     return res.redirect('/');
                 }
             }else{
-                console.log("user is not loggin");
+                console.log("user is not login");
                 return res.redirect("/user/login");
             }
         }

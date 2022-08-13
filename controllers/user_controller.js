@@ -48,7 +48,7 @@ module.exports.createSession = function(req, res){
 // destroying session
 module.exports.destroySession = function(req, res){
     req.logout();
-    console.log('Logeed Out');
+    console.log('Logged Out');
     return res.redirect('/users/login');
 }
 
