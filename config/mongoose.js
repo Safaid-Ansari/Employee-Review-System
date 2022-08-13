@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 // connect from mongodb
-mongoose.connect('mongodb://localhost:27017/Review-System');
+mongoose.connect("mongodb+srv://SafaidAnsari:iBcR2P7fTHF4UZBx@cluster0.vmqnisk.mongodb.net/Employee-Review-System");
   
 // acquire connection if it is successful
 const db = mongoose.connection;
