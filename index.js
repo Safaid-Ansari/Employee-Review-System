@@ -2,6 +2,7 @@
 const express = require('express');
 const port = process.env.PORT || 8000;
 const app = express();
+const url = "mongodb+srv://SafaidAnsari:iBcR2P7fTHF4UZBx@cluster0.vmqnisk.mongodb.net/Employee-Review-System";
 
 const expressLayouts = require('express-ejs-layouts');
 
@@ -41,7 +42,7 @@ app.use(session({
         maxAge : (1000 * 60 * 100)
     },
     store:MongoStore.create({
-        mongoUrl: 'mongodb://localhost:27017/habit',
+        mongoUrl: url,
         autoRemove : 'disabled',
     }, function(err){
         console.log(err || 'connect-mongodb setup');
