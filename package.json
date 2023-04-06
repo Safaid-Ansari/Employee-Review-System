@@ -10,13 +10,18 @@
   "author": "Safaid-Ansari",
   "license": "ISC",
   "dependencies": {
+    "connect-flash": "^0.1.1",
     "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.17.2",
     "mongoose": "^6.2.0",
     "passport": "^0.5.2",
-    "passport-local": "^1.0.0"
+    "passport-google-oauth": "^2.0.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "toastify-js": "^1.12.0"
   }
 }
